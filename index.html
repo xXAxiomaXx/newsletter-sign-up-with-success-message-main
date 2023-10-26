@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; color: white; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <section class="register" id="register">
+    <div class="info">
+  <h1>Stay updated!</h1>
+  <p class="join">Join 60,000+ product managers receiving monthly <br> updates on:</p>
+  <div class="list">
+  <div>
+    <img src="./assets/images/icon-list.svg" alt="">
+    <p>Product discovery and building what matters</p>
+  </div>
+  <div>
+    <img src="./assets/images/icon-list.svg" alt="">
+    <p>Measuring to ensure updates are a success</p>
+  </div>
+  <div>
+    <img src="./assets/images/icon-list.svg" alt="">
+    <p>And much more!</p>
+  </div>
+  </div>
+  <div class="form">
+    <div class="title">
+  <h3 class="email">Email address</h3>
+  <small>Valid email required</small>
+  </div>
+  <input type="email" placeholder="email@company.com" id="typeEmail">
+  <button class="submit" id="submit">Subscribe to monthly newsletter</button>
+</div>
+</div>
+<img src="./assets/images/illustration-sign-up-desktop.svg" class="image" alt="">
+</section>
+<section class="success-card" id="success-card">
+  <img src="./assets/images/icon-success.svg" class="check" alt="">
+  <h1>Thanks for <br>subscribing!</h1>
+  <p>A confirmation email has been sent to <br> <span id="personalEmail">ash@loremcompany.com</span>. Please open it and click <br>the button inside to confirm your subscription.</p>
+  <button>Dismiss message</button>
+</section>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">EM Dev</a>.
+  </div>
+  <script src="./script.js" defer></script>
+</body>
+</html>
